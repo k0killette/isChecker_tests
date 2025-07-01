@@ -1,0 +1,105 @@
+[
+  {
+    "id": "SD-08.01",
+    "language": "fr",
+    "name": "NumeralDigit",
+    "severity": "2#Majeur/2#Major",
+    "category": "Chiffre/Number",
+    "description": "Écrire les quantités et dates en chiffres",
+    "error_mesg": "Une X est écrite en lettres. [où X est \"quantité\" ou \"date\" ou \"valeur ordinale\"]",
+    "regex": null,
+    "llm_required": true,
+    "prompt_file": "prompts/fr_prompts_nombres.txt"
+  },
+  {
+    "id": "SD-08.02",
+    "language": "fr",
+    "name": "NumeralDecimalDigit",
+    "severity": "1#Mineur/1#Minor",
+    "category": "Chiffre/Number",
+    "description": "Limiter les nombres décimaux à 2 chiffres après la virgule",
+    "error_mesg": "Le nombre décimal a plus de 2 chiffres après la virgule : X.",
+    "regex": [
+        { 
+            "type": "text", 
+            "regex": "((?<!Km) |^)\\d+(\\.|,)\\d\\d\\d+\\b", 
+            "cause": "digit" 
+        }
+    ],
+    "llm_required": false,
+    "prompt_file": null
+  },
+  {
+    "id": "SD-08.03",
+    "language": "fr",
+    "name": "NumeralDecimalSep",
+    "severity": "1#Mineur/1#Minor",
+    "category": "Chiffre/Number",
+    "description": "Utiliser la virgule comme séparateur de nombre décimal",
+    "error_mesg": "Un point est utilisé comme séparateur de nombre décimal.",
+    "regex": [
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(m\\.?|m(s|\\.)?|m(è|e|é)tres?)\\b|(m\\.?|m(s|\\.)?|.m(è|e|é)tres?|     kms) ?\\d+\\.\\d+)", 
+            "cause": "mètre" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(kilom\\.?|km(s|\\.)?|kilom(è|e|é)tres?)\\b|(kilom\\.?|km(s|\\.)?|.     kilom(è|e|é)tres?|kms) ?\\d+\\.\\d+)", 
+            "cause": "kilomètre" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(centim\\.?|cm(s|\\.)?|centim(è|e|é)tres?)\\b|(centim\\.?|cm(s|\\.)?|.      centim(è|e|é)tres?) ?\\d+\\.\\d+)", 
+            "cause": "centimètre" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(millim\\.?|mm(s|\\.)?|millim(è|e|é)tres?)\\b|(millim\\.?|mm(s|\\.)?|.      millim(è|e|é)tres?) ?\\d+\\.\\d+)", 
+            "cause": "millimètre" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(kilog?s?\\.?|kg(s|\\.)?|kilogrammes?)\\b|(kilog?s?\\.?|kg(s|\\.)?|.    kilogrammes?) ?\\d+\\.\\d+)", 
+            "cause": "kilogramme" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(secs?\\.?|''|s\\.)\\b|(secs?\\.?|''|s\\.) ?\\d+\\.\\d+)", 
+            "cause": "seconde" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(a\\.?|a(s|\\.)?|amps?\\.?|ampères?)\\b|(amps?\\.?|ampères?) ?\\d+\\.   \\d+)", 
+            "cause": "ampère" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(deg(s|\\.|°)?|°c|(° ?)?celsius|°f|(° ?)?fahrenheit|degrés? (celsius|   fahrenheit))\\b|(deg(s|\\.|°)?|°c|(° ?)?celsius|°f|(° ?)?fahrenheit|degrés? (celsius|fahrenheit)) ?\\d+\\.    \\d+)", 
+            "cause": "degré" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(degrés?( (?!celsius|fahrenheit)|.$)|degrés? ?\\d+\\.\\d+))", 
+            "cause": "degré" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(kelvin|k)(s|\\.)?\\b|(kelvin|k)(s|\\.)? ?\\d+\\.\\d+)", 
+            "cause": "kelvin" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *mole?(s|\\.)?\\b|mole?(s|\\.)? ?\\d+\\.\\d+)", 
+            "cause": "mole" },
+        { 
+            "type": "text", 
+            "regex": "(\\d+\\.\\d+ *(cd|Candela)(s|\\.)?\\b|(cd|Candela)(s|\\.)? ?\\d+\\.\\d+)", 
+            "cause": "candela" }
+],
+    "llm_required": false,
+    "prompt_file": null
+  },
+  {
+    "id": "SD-08.04",
+    "language": "fr",
+    "name": "NumeralThousandFormat",
+    "severity": "1#Mineur/1#Minor",
+    "category": "Chiffre/Number",
+    "description": "Mettre une espace tous les 3 chiffres",
+    "error_mesg": "L'espace entre les 3 chiffres est manquante.",
+    "regex": null,
+    "llm_required": true,
+    "prompt_file": "prompts/fr_prompts_nombres.txt"
+  }
+]
