@@ -1,0 +1,87 @@
+{
+    "category": "Liste/List",
+    "language": "fr",
+    "rules": [
+        {            
+            "name": "TooManyItemsInList",
+            "description": "Utiliser 6 items maximum par liste",
+            "error_mesg": "La liste contient plus de 6 items : X. [où X est le nombre d'items]",
+            "regex": null,
+            "llm_required": false,
+            "prompt_file": null,
+            "prompt_key": null
+        },
+        {            
+            "name": "TooFewItemsInList",
+            "description": "Utiliser 2 items minimum par liste",
+            "error_mesg": "La liste ne contient qu'un item.",
+            "regex": null,
+            "llm_required": false,
+            "prompt_file": null,
+            "prompt_key": null
+        },
+        {            
+            "name": "AcceptableItem",
+            "description": "Ne pas utiliser de majuscule en début d'item",
+            "error_mesg": "L'item commence par une majuscule.",
+            "regex": [
+                {
+                "type": "pos", 
+                "regex": "^([A-Z].*)", 
+                "cause": "Première lettre majuscule"
+                }
+            ],    
+            "llm_required": false,
+            "prompt_file": null,
+            "prompt_key": null
+        },
+        {            
+            "name": "PeriodAtEndOfList",
+            "description": "Terminer les listes par un point",
+            "error_mesg": "La liste ne se termine pas par un point.",
+            "regex": [
+                {
+                "type": "text", 
+                "regex": ".*[^\\.] *$", 
+                "cause": "Point à la fin de la liste"
+                }
+            ],
+            "llm_required": false,
+            "prompt_file": null,
+            "prompt_key": null
+        },
+        {            
+            "name": "ListWithIntroductorySentenceParagraph",
+            "description": "Faire précéder les listes d'une phrase introductive",
+            "error_mesg": "La liste n'est pas précédée d'une phrase introductive.",
+            "regex": null,
+            "llm_required": true,
+            "prompt_file": "prompts/fr_prompts_liste.py",
+            "prompt_key": "SD-05.05"
+        },
+        {            
+            "name": "ListWithIntroductorySentenceRegex",
+            "description": "Faire une phrase introductive adéquate",
+            "error_mesg": "La phrase introductive est mal formée.",
+            "regex": null,
+            "llm_required": true,
+            "prompt_file": "prompts/fr_prompts_liste.py",
+            "prompt_key": "SD-05.06"
+        },
+        {            
+            "name": "SemicolonAtEndOfItem",
+            "description": "Terminer chaque item sauf le dernier par un espace (obligatoire) suivi d'un point-virgule",
+            "error_mesg": "L'item ne se termine pas par un espace suivi d'un point-virgule.",
+            "regex": [
+                {
+                "type": "pos", 
+                "regex": "^(?!.* ;$).+", 
+                "cause": "Item non final mal terminé"
+                }
+            ],
+            "llm_required": false,
+            "prompt_file": null,
+            "prompt_key": null
+        }
+    ]
+}
