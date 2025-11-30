@@ -1,0 +1,169 @@
+#############################################   SD   ############################################# 
+###Rule: AcceptableUnit
+##### FR
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=DC 1503 déclinaison : Km 470,815 Km 470,943 Filet F33 Km 471,400 Km 471,509.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'utilisation d'une vitesse de 30 Kms / h est admise.	description=Le symbole de l'unité n'est pas approuvé : "30 Kms".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'utilisation d'une vitesse de 30,50 KM. / h est admise.	description=Le symbole de l'unité n'est pas approuvé : "30,50 KM".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'utilisation d'une vitesse de 30 km / h est admise.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'utilisation d'une vitesse de 30 kilomètres / h est admise.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Arrêt prévu au Km 10.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Arrêt prévu au KM10.	description=Le symbole de l'unité n'est pas approuvé : "KM10".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Arrêt prévu au Kilometres10.	description=Le symbole de l'unité n'est pas approuvé : " Kilometres10".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Arrêt prévu au km 10.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'utilisation d'une vitesse de 30 kilomètres / h est admise.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 CMS.	description=Le symbole de l'unité n'est pas approuvé : "10 CMS".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 Cm.	description=Le symbole de l'unité n'est pas approuvé : "10 Cm".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 Centimètres.	description=Le symbole de l'unité n'est pas approuvé : "10 Centimètres".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 centimètres.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 cm.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=CM 10 : faire une marque.	description=Le symbole de l'unité n'est pas approuvé : "CM 10".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Proche du Centimètre 10 : faire une marque.	description=Le symbole de l'unité n'est pas approuvé : " Centimètre 10".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Centimètre 10 : faire une marque.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Arrêt prévu au cm 10.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10MM.	description=Le symbole de l'unité n'est pas approuvé : "10MM".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 Mm.	description=Le symbole de l'unité n'est pas approuvé : "10 Mm".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 1 500 Mm.	description=Le symbole de l'unité n'est pas approuvé : "1 500 Mm".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 Millimètres.	description=Le symbole de l'unité n'est pas approuvé : "10 Millimètres".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 MMs.	description=Le symbole de l'unité n'est pas approuvé : "10 MMs".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 millimètres.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Découper une bande de 10 mm.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Mm 10 : faire une marque.	description=Le symbole de l'unité n'est pas approuvé : "Mm 10".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Proche du Millimètre 10 : faire une marque.	description=Le symbole de l'unité n'est pas approuvé : " Millimètre 10".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Proche du Millimètre10 : faire une marque.	description=Le symbole de l'unité n'est pas approuvé : " Millimètre10".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Millimètre 10 : faire une marque.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Arrêt prévu au mm 10.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Ajouter 3 Kgs de farine.	description=Le symbole de l'unité n'est pas approuvé : "3 Kgs".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Ajouter 3 Kilos de farine.	description=Le symbole de l'unité n'est pas approuvé : "3 Kilos".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Ajouter 3 Kilogrammes de farine.	description=Le symbole de l'unité n'est pas approuvé : "3 Kilogrammes".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Ajouter 3 kgs de farine.	description=Le symbole de l'unité n'est pas approuvé : "3 kgs".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Ajouter 3 kg de farine.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Ajouter 3 kilogrammes de farine.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Après 3 sec, ajouter la farine.	description=Le symbole de l'unité n'est pas approuvé : "3 sec".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Après 3 sec., ajouter la farine.	description=Le symbole de l'unité n'est pas approuvé : "3 sec".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Après 3 Secs, ajouter la farine.	description=Le symbole de l'unité n'est pas approuvé : "3 Secs".	severity=
+#profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Après 3'', ajouter la farine.	description=L'abréviation utilisée n'est pas approuvée.	severity=
+#profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Après 3", ajouter la farine.	description=L'abréviation utilisée n'est pas approuvée.	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Après 3 secondes, ajouter la farine.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Après 3 s, ajouter la farine.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=10 Amp = 2 300 watts.	description=Le symbole de l'unité n'est pas approuvé : "10 Amp".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=10 amps = 2 300 watts.	description=Le symbole de l'unité n'est pas approuvé : "10 amps".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=10 ampères = 2 300 watts.	description=Le symbole de l'unité n'est pas approuvé : "10 ampères".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=10 Ampères = 2 300 watts.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=10 A = 2 300 watts.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 degrés.	description=Le symbole de l'unité n'est pas approuvé : "100 degrés.".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 Deg.	description=Le symbole de l'unité n'est pas approuvé : "100 Deg".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 Deg°.	description=Le symbole de l'unité n'est pas approuvé : "100 Deg".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 °c.	description=Le symbole de l'unité n'est pas approuvé : "100 °c".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 °celsius.	description=Le symbole de l'unité n'est pas approuvé : "100 °celsius".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 ° celsius.	description=Le symbole de l'unité n'est pas approuvé : "100 ° celsius".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 degrés celsius.	description=Le symbole de l'unité n'est pas approuvé : "100 degrés celsius".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 celsius.	description=Le symbole de l'unité n'est pas approuvé : "100 celsius".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 Celsius.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 degrés Celsius.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 °C.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 °f.	description=Le symbole de l'unité n'est pas approuvé : "100 °f".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 degrés fahrenheit.	description=Le symbole de l'unité n'est pas approuvé : "100 degrés fahrenheit".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 degrés Fahrenheit.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 Fahrenheit .	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=L'eau bout à 100 °F.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=A=6,02.1023 Mole-1.	description=Le symbole de l'unité n'est pas approuvé : "1023 Mole".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=A=6,02.1023 MOLE-1.	description=Le symbole de l'unité n'est pas approuvé : "1023 MOLE".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=A=6,02.1023 MOL-1.	description=Le symbole de l'unité n'est pas approuvé : "1023 MOL".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=NA=6,02.1023 mol-1.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=NA=6,02.1023 mole-1.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Une bougie a un éclat d'environ 1 Cd dans le plan horizontal.	description=Le symbole de l'unité n'est pas approuvé : "1 Cd".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Deux bougies ont un éclat d'environ 2 CDS dans le plan horizontal.	description=Le symbole de l'unité n'est pas approuvé : "2 CDS".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Deux bougies ont un éclat d'environ 2 cds dans le plan horizontal.	description=Le symbole de l'unité n'est pas approuvé : "2 cds".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Une bougie a un éclat d'environ 1 Candela dans le plan horizontal.	description=Le symbole de l'unité n'est pas approuvé : "1 Candela".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Une bougie a un éclat d'environ 1 candela dans le plan horizontal.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=Une bougie a un éclat d'environ 1 cd dans le plan horizontal.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=La norme est à 3 kelvins.	description=Le symbole de l'unité n'est pas approuvé : "3 kelvins".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=La norme est à 3 k ?	description=Le symbole de l'unité n'est pas approuvé : "3 k".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=La norme est à 3 k. ?	description=Le symbole de l'unité n'est pas approuvé : "3 k".	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=La norme est à 3 Kelvin.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=AcceptableUnit	tag=	target_text=La norme est à 3 K.	description=	severity=
+
+
+#### EN
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Using a speed of 30 Kms / h is ok.	description=The symbol used is not approved: "30 Kms".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Using a speed of 30,50 KM. / h is ok.	description=The symbol used is not approved: "30,50 KM".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Using a speed of 30 km / h is ok.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Using a speed of 30 kilometers / h is ok.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Stop planned at Km 10.	description=The symbol used is not approved: "Km 10".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Stop planned at KM10.	description=The symbol used is not approved: "KM10".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Stop planned at Kilometres10.	description=The symbol used is not approved: " Kilometres10".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Stop planned at km 10.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Using a speed of 30 kilometres / h is ok.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 CMS.	description=The symbol used is not approved: "10 CMS".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 Cm.	description=The symbol used is not approved: "10 Cm".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 Centimeters.	description=The symbol used is not approved: "10 Centimeters".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 centimetres.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 cm.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=CM 10: make a mark.	description=The symbol used is not approved: "CM 10".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Closed to the Centimetre 10: make a mark.	description=The symbol used is not approved: " Centimetre 10".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Centimeter 10: make a mark.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Stop planned at cm 10.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10MM.	description=The symbol used is not approved: "10MM".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 Mm.	description=The symbol used is not approved: "10 Mm".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 1 500 Mm.	description=The symbol used is not approved: "1 500 Mm".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 Millimetres.	description=The symbol used is not approved: "10 Millimetres".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 MMs.	description=The symbol used is not approved: "10 MMs".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 millimeters.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Cut a band of 10 mm.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Mm 10: make a mark.	description=The symbol used is not approved: "Mm 10".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Closed to the Millimeter 10: make a mark.	description=The symbol used is not approved: " Millimeter 10".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Closed to the Millimetre10: make a mark.	description=The symbol used is not approved: " Millimetre10".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Millimetre 10: make a mark.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Stop planned at mm 10.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Add 3 Kgs of flour.	description=The symbol used is not approved: "3 Kgs".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Add 3 Kilos of flour.	description=The symbol used is not approved: "3 Kilos".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Add 3 Kilograms of flour.	description=The symbol used is not approved: "3 Kilograms".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Add 3 kgs of flour.	description=The symbol used is not approved: "3 kgs".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Add 3 kg of flour.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Add 3 kilogrammes of flour.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=After 3 sec, add the flour.	description=The symbol used is not approved: "3 sec".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=After 3 sec., add the flour.	description=The symbol used is not approved: "3 sec".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=After 3 Secs, add the flour.	description=The symbol used is not approved: "3 Secs".	severity=
+#profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=After 3'', add the flour.	description=L'abréviation utilisée n'est pas approuvée.	severity=
+#profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=After 3", add the flour.	description=L'abréviation utilisée n'est pas approuvée.	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=After 3 seconds, add the flour.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=After 3 s, add the flour.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=10 Amp = 2 300 watts.	description=The symbol used is not approved: "10 Amp".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=10 amps = 2 300 watts.	description=The symbol used is not approved: "10 amps".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=10 amperes = 2 300 watts.	description=The symbol used is not approved: "10 amperes".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=10 Amperes = 2 300 watts.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=10 A = 2 300 watts.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 degrees.	description=The symbol used is not approved: "100 degrees.".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 Deg.	description=The symbol used is not approved: "100 Deg".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 Deg°.	description=The symbol used is not approved: "100 Deg".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 °c.	description=The symbol used is not approved: "100 °c".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 °celsius.	description=The symbol used is not approved: "100 °celsius".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 ° celsius.	description=The symbol used is not approved: "100 ° celsius".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 degrees celsius.	description=The symbol used is not approved: "100 degrees celsius".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 celsius.	description=The symbol used is not approved: "100 celsius".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 Celsius.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 degrees Celsius.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 °C.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 °f.	description=The symbol used is not approved: "100 °f".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 degrees fahrenheit.	description=The symbol used is not approved: "100 degrees fahrenheit".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 degrees Fahrenheit.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 Fahrenheit .	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Water boils at 100 °F.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=A=6,02.1023 Mole-1.	description=The symbol used is not approved: "1023 Mole".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=A=6,02.1023 MOLE-1.	description=The symbol used is not approved: "1023 MOLE".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=A=6,02.1023 MOL-1.	description=The symbol used is not approved: "1023 MOL".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=NA=6,02.1023 mol-1.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=NA=6,02.1023 mole-1.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=A candle has a brightness of approximately 1 Cd.	description=The symbol used is not approved: "1 Cd".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Two candles have a brightness of approximately 2 CDS.	description=The symbol used is not approved: "2 CDS".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=Two candles have a brightness of approximately 2 cds.	description=The symbol used is not approved: "2 cds".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=A candle has a brightness of approximately 1 Candela.	description=The symbol used is not approved: "1 Candela".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=A candle has a brightness of approximately 1 candela.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=A candle has a brightness of approximately 1 cd.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=The standard is 3 kelvins.	description=The symbol used is not approved: "3 kelvins".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=The standard is 3 k ?	description=The symbol used is not approved: "3 k".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=The standard is 3 k. ?	description=The symbol used is not approved: "3 k".	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=The standard is 3 Kelvin.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=AcceptableUnit	tag=	target_text=The standard is 3 K.	description=	severity=
+
+

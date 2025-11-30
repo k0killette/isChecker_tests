@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {
+      "rule_name": "GIFASWordNotApproved",
+      "severity": "3-Sévère",
+      "family": "Alerte",
+      "llm_prompt": "Analysez le texte suivant selon la norme GIFAS du Simplified Technical English. Identifiez si le texte contient un ou plusieurs termes non approuvés (exemples : 'assurer (v)', 's'assurer de (v)', 'comme (conj)', 'après (conj)', etc.). \n\nRetournez un JSON :\n- Si aucune infraction : {\"status\": \"NO_VIOLATION\"}\n- Si infraction(s) détectée(s) : {\"status\": \"VIOLATION\", \"message\": \"Le(s) terme(s) [terme] n'est/ne sont pas approuvé(s).\"}"
+    }
+  ]
+}
