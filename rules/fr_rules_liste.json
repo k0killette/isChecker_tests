@@ -9,7 +9,9 @@
             "regex": null,
             "llm_required": false,
             "prompt_file": null,
-            "prompt_key": null
+            "prompt_key": null,
+            "anomaly_score": -0.142,      
+            "recommended_method": "REGEX_ONLY"  
         },
         {            
             "name": "TooFewItemsInList",
