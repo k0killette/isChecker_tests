@@ -1,21 +1,48 @@
+# ------------------------------
+# Importation des librairies
+# ------------------------------
+
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import IsolationForest
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+from sklearn.ensemble import IsolationForest
 
 # ------------------------------
 # Chargement des données
 # ------------------------------
-df = pd.read_csv('regles_ml.csv')
-print(f"Dataset: {len(df)} règles analysées")
+
+# Chargement des données depuis le fichier CSV
+df = pd.read_csv('regles_ml.csv', encoding="utf-8")
+print(f"\nDonnées correctement chargées depuis 'regles_ml.csv'")
+print("Erreur: Le fichier 'regles_ml.csv' est introuvable.")
+        
+# Affichage d'un aperçu des données
+print("Aperçu des données:")
+print(df.head())
+print(f"\nDataset: {len(df)} règles analysées")
+
+# ------------------------------
+# Vérfication des données
+# ------------------------------
+print("\n" + "="*50)
+print("VERIFICATION DES DONNEES")
+print("="*50)
+
+# Vérification des types de données et des valeurs manquantes
+print("\n----- Vérification des données: -----")
+print(df.info())
+
+# Arrondi de error_rate_pct à deux décimales
+df['error_rate_pct'] = df['error_rate_pct'].round(2)
 
 # ------------------------------
 # Features à utiliser
 # ------------------------------
+
 features = ['error_rate_pct', 'test_volume']  
-print(f"Features utilisées: {features}")
-print("Aucune valeur manquante détectée")
+print(f"\nFeatures utilisées: {features}")
 
 X = df[features]
 
@@ -29,13 +56,16 @@ X = df[features]
 #     preds = iso_forest.fit_predict(X)
 #     print(f"contamination={contam}: {sum(preds==-1)} anomalies")
 
-iso_forest = IsolationForest(contamination=0.20, random_state=42)   # 20% d'anomalies attendues
+# iso_forest = IsolationForest(contamination='auto', random_state=42)
+
+iso_forest = IsolationForest(contamination=0.20, random_state=42)   # ~20% d'anomalies attendues
 df['anomaly'] = iso_forest.fit_predict(X)                           # -1 = anomalie, 1 = normale
-df['anomaly_score'] = iso_forest.decision_function(X)               # Score d'anomalie
+df['anomaly_score'] = iso_forest.decision_function(X)               # Score d'anomalie (-1 à 1)
 
 # ------------------------------
 # Résultats
 # ------------------------------
+
 print("\n" + "="*60)
 print("RÈGLES ANORMALES DÉTECTÉES")
 print("="*60)
@@ -52,22 +82,28 @@ n_anomalies = len(anomalies)
 print(f"\n {n_anomalies} anomalies détectées sur {len(df)} règles ({n_anomalies/len(df)*100:.1f}%)")
 
 # ------------------------------
-# Génération d'un fichier CSV des règles avec statut anomalie
+# Génération d'un fichier CSV 
 # ------------------------------
+
 df.to_csv('regles_anomalies.csv', index=False)
-print(f"\n Fichiers générés:")
-print("   - regles_anomalies.csv")
-print("   - anomalies_regles.png")
+print(f"\n Fichier regles_anomalies.csv généré")
 
 # ------------------------------
 # Visualisations
 # ------------------------------
-plt.figure(figsize=(12, 5))
+
+plt.figure(figsize=(14, 5))
 
 # Nuage de points 
 plt.subplot(1, 2, 1)
-sns.scatterplot(data=df, x='error_rate_pct', y='test_volume', 
-                hue='anomaly', palette={1: 'skyblue', -1: 'red'}, s=200)
+sns.scatterplot(
+    data=df, 
+    x='error_rate_pct', 
+    y='test_volume',
+    hue='anomaly', 
+    palette={1: 'skyblue', -1: 'red'}, 
+    s=200
+)
 plt.title(f'Détection anomalies ({n_anomalies} règles problématiques)')
 plt.xlabel('Taux d\'erreur LLM (%)')
 plt.ylabel('Volume de tests')
