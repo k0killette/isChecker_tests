@@ -30,17 +30,28 @@ def check_data(df: pd.DataFrame) -> None:
 # ---------------------------------------
 # Fonction pour sélectionner les features
 # ---------------------------------------
+# Définition des features à utiliser
+feature_cols = ['error_rate_pct', 'test_volume']
+
 def select_features(df: pd.DataFrame, features=None) -> pd.DataFrame:
     """
     Sélectionne les features à utiliser pour le modèle
     :param df: DataFrame contenant les données
     :param features: Liste des colonnes à sélectionner
     :return: DataFrame avec les features sélectionnées
+    :raises ValueError: si une ou plusieurs colonnes sont manquantes
     """
 
     # Définition des features à utiliser
     if features is None:
-        features = ['error_rate_pct', 'test_volume']
+        features = feature_cols
+    
+    # Vérification que toutes les colonnes existent
+    missing = set(features) - set(df.columns)
+    if missing:
+        raise ValueError(
+            f"Erreur: Les colonnes suivantes sont manquantes dans le DataFrame: {missing}"
+        )
 
     print(f"\nFeatures utilisées: {features}")
     return df[features]
