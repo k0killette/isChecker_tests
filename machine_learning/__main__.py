@@ -1,5 +1,5 @@
 from data_loading import load_data
-from data_preprocessing import inspect_data, select_features
+from data_preprocessing import check_data, select_features
 from model_isolation_forest import train_isolation_forest, apply_model
 from model_results import summarize_results, export_results
 from visualization import plot_anomalies
@@ -13,7 +13,11 @@ def main():
         return
     
     # Vérification des données
-    inspect_data(df)
+    try:
+        check_data(df)
+    except ValueError as e:
+        print(f"Erreur lors de la vérification des données : {e}")
+        return
 
     # Sélection des features
     feature_cols = ["error_rate_pct", "test_volume"]
