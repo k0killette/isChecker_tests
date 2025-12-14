@@ -6,8 +6,12 @@ from visualization import plot_anomalies
 
 def main():
     # Chargement des données
-    df = load_data("regles_ml.csv")
-
+    try:
+        df = load_data('regles_ml.csv')
+    except (FileNotFoundError, RuntimeError, ValueError) as e:
+        print(f"Erreur lors du chargement des données : {e}")
+        return
+    
     # Vérification des données
     inspect_data(df)
 
