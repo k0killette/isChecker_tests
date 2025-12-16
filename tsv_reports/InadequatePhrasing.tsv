@@ -1,0 +1,491 @@
+#############################################   SD   #############################################
+###Rule: InadequatePhrasing
+
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Numéro de tel : 0606060606.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Numero Tel : 0606060606.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=No tel : 0606060606.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=N°TEL : 0606060606.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De ce fait, mettre des gants.	description=La phrase contient un terme inadapté : "de ce fait".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De ce seul fait, mettre des gants.	description=La phrase contient un terme inadapté : "de ce fait".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Du fait de cette étape, mettre des gants.	description=La phrase contient un terme inadapté : "du fait de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Du fait d'une étape rouge, mettre des gants.	description=La phrase contient un terme inadapté : "du fait de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Du seul fait de cette étape, mettre des gants.	description=La phrase contient un terme inadapté : "du fait de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En dépot du fait de cette étape, mettre des gants.	description=La phrase contient un terme inadapté : "du fait de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et de ce fait, mettre des gants.	description=La phrase contient un terme inadapté : "de ce fait".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et de ce seul fait, mettre des gants.	description=La phrase contient un terme inadapté : "de ce fait".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il informe de ce fait.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il informe du fait.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il n'est pas rare de devoir tout arrêtee.	description=La phrase contient un terme inadapté : "pas rare".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il n'est pas rare de devoir tout arrêter.	description=La phrase contient un terme inadapté : "pas rare".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il n'est pas rare.	description=La phrase contient un terme inadapté : "pas rare".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=N'hésitez pas à arrêter.	description=La phrase contient un terme inadapté : "pas hésiter".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas hésiter	description=La phrase contient un terme inadapté : "pas hésiter".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas hésiter.	description=La phrase contient un terme inadapté : "pas hésiter".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas hésiter à arrêter.	description=La phrase contient un terme inadapté : "pas hésiter".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=N'évitez pas les trous.	description=La phrase contient un terme inadapté : "pas éviter".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas éviter	description=La phrase contient un terme inadapté : "pas éviter".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas éviter.	description=La phrase contient un terme inadapté : "pas éviter".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas éviter les trous.	description=La phrase contient un terme inadapté : "pas éviter".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ranger la zone (à ne pas oublier : un coup de balai).	description=La phrase contient un terme inadapté : "pas oublier".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=N'oubliez pas de vider l'eau.	description=La phrase contient un terme inadapté : "pas oublier".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas oublier	description=La phrase contient un terme inadapté : "pas oublier".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas oublier.	description=La phrase contient un terme inadapté : "pas oublier".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas oublier de vider l'eau.	description=La phrase contient un terme inadapté : "pas oublier".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre plus de deux outils.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Cela ne prouve pas nécessairement une relation de cause à effet , juste qu' ils paraissent montrer un lien .	description=La phrase contient un terme inadapté : "paraître".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'équipement paraît prêt.	description=La phrase contient un terme inadapté : "paraître".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'équipement paraît être prêt.	description=La phrase contient un terme inadapté : "paraître".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'équipement ne paraît pas être prêt.	description=La phrase contient un terme inadapté : "paraître".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'équipement ne paraît pas prêt.	description=La phrase contient un terme inadapté : "paraître".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Le choc parait-il provenir de la voie ?	description=La phrase contient un terme inadapté : "paraître".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Le choc paraît-il provenir de la voie ?	description=La phrase contient un terme inadapté : "paraître".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Cela ne prouve pas nécessairement une relation de cause à effet , juste qu' ils semblent montrer un lien .	description=La phrase contient un terme inadapté : "sembler".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'équipement semble prêt.	description=La phrase contient un terme inadapté : "sembler".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'équipement semble être prêt.	description=La phrase contient un terme inadapté : "sembler".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'équipement ne semble pas être prêt.	description=La phrase contient un terme inadapté : "sembler".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'équipement ne semble pas prêt.	description=La phrase contient un terme inadapté : "sembler".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il semble être certifié par le label.	description=La phrase contient un terme inadapté : "sembler".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En semblant réussir, il se trompe.	description=La phrase contient un terme inadapté : "sembler".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Le semblant est déconseillé.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Tourner la vanne soit vers la gauche soit vers le haut.	description=La phrase contient un terme inadapté : "soit..., soit...".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Soit la situation A, poursuivre.	description=La phrase contient un terme inadapté : "soit".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Soit.	description=La phrase contient un terme inadapté : "soit".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Soit, j'accepte cette décision.	description=La phrase contient un terme inadapté : "soit".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre l'outil, soit la clé de 12.	description=La phrase contient un terme inadapté : "soit".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Soit à gauche, soit à droite, tourner la vanne.	description=La phrase contient un terme inadapté : "soit..., soit...".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Le dérangement provient soit du sol soit du bord et les mesures à prendre dépendent de la nature du dérangement.	description=La phrase contient un terme inadapté : "soit..., soit...".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Activité exercée soit directement sur les équipements soit dans un environnement électrique.	description=La phrase contient un terme inadapté : "soit..., soit...".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Tourner la vanne soit vers la gauche, soit vers le haut.	description=La phrase contient un terme inadapté : "soit..., soit...".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Qu'il soit absent ou qu'il soit présent, le noter.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Au fond, il faut suivre la procédure.	description=La phrase contient un terme inadapté : "dans le fond".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ce n'est pas si difficile au fond.	description=La phrase contient un terme inadapté : "dans le fond".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Dans le fond, il faut suivre la procédure.	description=La phrase contient un terme inadapté : "dans le fond".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre l'outil au fond de l'armoire.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre l'outil au fond du tiroir.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre l'outil au fond d'une armoire.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre l'outil dans le fond de l'armoire.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La zone permet d'afficher les données relatives au fond cartographique.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La zone permet d'afficher les données relatives au fonds cartographique.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La zone permet de gérer le fond de carte.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser 3 outils maximum.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Tourner la vanne au maximum.	description=La phrase contient un terme inadapté : "au maximum".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Au maximum, utiliser 3 morceaux.	description=La phrase contient un terme inadapté : "au maximum".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser au moins 3 morceaux.	description=La phrase contient un terme inadapté : "au moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier que la procédure est appliquée, tout au moins le dimanche.	description=La phrase contient un terme inadapté : "au moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier au moins la procédure 12.	description=La phrase contient un terme inadapté : "au moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Au moins, vérifier la procédure 12.	description=La phrase contient un terme inadapté : "au moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser 3 morceaux au plus.	description=La phrase contient un terme inadapté : "au plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre tout au plus 5 outils.	description=La phrase contient un terme inadapté : "au plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre 5 outils, pas moins.	description=La phrase contient un terme inadapté : "pas moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre 5 outils, pas plus.	description=La phrase contient un terme inadapté : "pas plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas prendre pas plus de deux outils.	description=La phrase contient un terme inadapté : "pas plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas prendre plus de deux outils à la fois.	description=La phrase contient un terme inadapté : "pas plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas prendre moins de 5 outils.	description=La phrase contient un terme inadapté : "pas moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne pas prendre plus de 5 outils.	description=La phrase contient un terme inadapté : "pas plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre pas moins de 5 outils.	description=La phrase contient un terme inadapté : "pas moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre pas plus de 5 outils.	description=La phrase contient un terme inadapté : "pas plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Au plus, prendre 5 outils.	description=La phrase contient un terme inadapté : "au plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Si vous arrivez à plus de 5 fois, arrêter .	description=La phrase contient un terme inadapté : "au plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=A plus de 5 fois, arrêter .	description=La phrase contient un terme inadapté : "au plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prévoir les coûts au plus juste.	description=La phrase contient un terme inadapté : "au plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De plus, suivre la procédure.	description=La phrase contient un terme inadapté : "de plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De plus en plus vite, les choses dérivent.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser de plus en plus vite la procédure.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En plus, suivre la procédure.	description=La phrase contient un terme inadapté : "en plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure 12 et en plus de la 15.	description=La phrase contient un terme inadapté : "en plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il y a 3 outils en moins dans l'armoire.	description=La phrase contient un terme inadapté : "en moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Opérateur d'autant moins motivé que la procédure est obsolète.	description=La phrase contient un terme inadapté : "d'autant moins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure 12, d'autant plus la 11 est temrinée.	description=La phrase contient un terme inadapté : "d'autant plus".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser 3 morceaux au minimum.	description=La phrase contient un terme inadapté : "au minimum".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Mettre 3 cm d'eau approximativement.	description=La phrase contient un terme inadapté : "approximativement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Mettre approximativement 3 cm d'eau.	description=La phrase contient un terme inadapté : "approximativement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Faire approximativement les comptes.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Faire les comptes approximatifs.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Appliquer la couleur désirée.	description=La phrase contient un terme inadapté : "désiré".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Appliquer la couleur selon le désir du client.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ces informations sont vraisemblables.	description=La phrase contient un terme inadapté : "vraisemblable".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il faut vraisemblablement suivre la procédure B.	description=La phrase contient un terme inadapté : "vraisemblablement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il faut, en toute vraisemblance, suivre la procédure B.	description=La phrase contient un terme inadapté : "vraisemblablement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Selon toutes vraisemblances, il faut suivre la procédure B.	description=La phrase contient un terme inadapté : "vraisemblablement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure afin d'atteindre l'objectif.	description=La phrase contient un terme inadapté : "afin de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure afin que le moteur soit prêt.	description=La phrase contient un terme inadapté : "afin que".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur est obligé de mettre des gants.	description=La phrase contient un terme inadapté : "être obligé de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur, obligé de mettre des gants, réalise la procédure.	description=La phrase contient un terme inadapté : "être obligé de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur, obligé par la procédure, met des gants.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur est encouragé à mettre des gants.	description=La phrase contient un terme inadapté : "être encouragé à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur, encouragé à mettre des gants, réalise la procédure.	description=La phrase contient un terme inadapté : "être encouragé à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur, encouragé par ses collègues, réalise la procédure.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En suivant, réaliser un arasage de biais sur le petit diamètre du support fixe (photo ci-dessous)	description=La phrase contient un terme inadapté : "en suivant,".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En suivant la procédure, réaliser le montage.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser le montage en suivant la procédure.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Faire le montage grâce aux outils.	description=La phrase contient un terme inadapté : "grâce à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Avant tout, vérifier le plan de montage.	description=La phrase contient un terme inadapté : "avant tout".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Avant tout changement, vérifier le plan de montage.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier le plan de montage avant tout.	description=La phrase contient un terme inadapté : "avant tout".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier le plan de montage avant tout changement.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Après tout : vérifier le plan de montage.	description=La phrase contient un terme inadapté : "après tout".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Après tout, vérifier le plan de montage.	description=La phrase contient un terme inadapté : "après tout".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Après tout changement, vérifier le plan de montage.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier le plan de montage après tout.	description=La phrase contient un terme inadapté : "après tout".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier le plan de montage après tout changement.	description=	severity=
+##### fr / FR
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ranger les outils, par exemple les clés et les tournevis.	description=La phrase contient un terme inadapté : "par exemple".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ranger les outils (dans l'armoire), par exemple les clés et les tournevis.	description=La phrase contient un terme inadapté : "par exemple".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ranger les outils (par exemple les clés et les tournevis).	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'employeur a l'obligation de prévenir ses salariés.	description=La phrase contient un terme inadapté : "avoir l'obligation".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'employeur a en outre l'obligation de prévenir ses salariés.	description=La phrase contient un terme inadapté : "en outre, avoir l'obligation".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'employeur a certaines obligations vis-à-vis des salariés.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'employeur a des obligations vis-à-vis des salariés.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'agent a pour obligation d'assurer la sécurité des données.	description=La phrase contient un terme inadapté : "avoir l'obligation".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'agent a essentiellement pour obligation d'assurer la sécurité des données.	description=La phrase contient un terme inadapté : "avoir l'obligation".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En outre l'agent a pour obligation d'assurer la sécurité des données.	description=La phrase contient un terme inadapté : "en outre, avoir l'obligation".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=C'est à faire sans faute.	description=La phrase contient un terme inadapté : "être à + V".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier, c'est à-dire bien regarder.	description=La phrase contient un terme inadapté : "c'est-à-dire".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Les procédures sont en révision, c'est-à-dire qu'elles ne sont pas disponibles.	description=La phrase contient un terme inadapté : "c'est-à-dire".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Les procédures sont en révision. C'est à dire qu'elles ne sont pas disponibles.	description=La phrase contient un terme inadapté : "c'est-à-dire".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure est à dire à haute voix.	description=La phrase contient un terme inadapté : "être à + V".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En réalité, c'est à l'employeur de vérifier.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et c'est à faire rapidement.	description=La phrase contient un terme inadapté : "être à + V".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure est à suivre.	description=La phrase contient un terme inadapté : "être à + V".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Porter bien attention au danger.	description=La phrase contient un terme inadapté : "faire/prêter attention".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=faire/prêter attention au danger.	description=La phrase contient un terme inadapté : "faire/prêter attention".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Faire très attention au danger.	description=La phrase contient un terme inadapté : "faire/prêter attention".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Attention au danger.	description=La phrase contient un terme inadapté : "faire/prêter attention".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Faire attention.	description=La phrase contient un terme inadapté : "faire/prêter attention".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Attention.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Faire très attention.	description=La phrase contient un terme inadapté : "faire/prêter attention".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Faire vraiment très attention.	description=La phrase contient un terme inadapté : "faire/prêter attention".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Attention vraiment au danger.	description=La phrase contient un terme inadapté : "faire/prêter attention".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Adopter la bonne conduite grâce à la procédure.	description=La phrase contient un terme inadapté : "grâce à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Adopter la bonne conduite grace aux procédures.	description=La phrase contient un terme inadapté : "grâce à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Les protections sont inopérantes, et l'agent est à la merci d'une défaillance.	description=La phrase contient un terme inadapté : "à la merci de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Les protections sont inopérantes, et l'agent est à la merci de la première défaillance venue.	description=La phrase contient un terme inadapté : "à la merci de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et merci d'appliquer la procédure.	description=La phrase contient un terme inadapté : "merci de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Merci d'appliquer la procédure.	description=La phrase contient un terme inadapté : "merci de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Par ailleurs, suivre la procédure.	description=La phrase contient un terme inadapté : "par ailleurs".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser préfèrentiellement la procédure 12.	description=La phrase contient un terme inadapté : "préférentiellement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser préférentiellement la procédure 12.	description=La phrase contient un terme inadapté : "préférentiellement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser de préférence la procédure 12.	description=La phrase contient un terme inadapté : "préférentiellement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prèferentiellement, utiliser la procédure 12.	description=La phrase contient un terme inadapté : "préférentiellement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure préférentielle est la 12.	description=La phrase contient un terme inadapté : "préférentiel".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prenez garde aux dangers.	description=La phrase contient un terme inadapté : "prendre garde à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Prendre garde à la météo.	description=La phrase contient un terme inadapté : "prendre garde à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure en prenant garde de ne pas se retrouver coincé.	description=La phrase contient un terme inadapté : "prendre garde à".	severity=
+# TU inhibé car "prends" est taggué NC...	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et prends garde d'arriver en retard.	description=La phrase contient un terme inadapté : "prendre garde à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Mais malgré le mal qu'il se donne, la situation se dégrade.	description=La phrase contient un terme inadapté : "malgré".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Malgré tout le mal qu'il se donne, la situation se dégrade.	description=La phrase contient un terme inadapté : "malgré".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Malgré tout, réaliser la procédure.	description=La phrase contient un terme inadapté : "malgré tout".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser malgré tout la procédure.	description=La phrase contient un terme inadapté : "malgré".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure malgré tout.	description=La phrase contient un terme inadapté : "malgré tout".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser toutefois la procédure.	description=La phrase contient un terme inadapté : "toutefois".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure. Toutefois, ne pas se précipiter.	description=La phrase contient un terme inadapté : "toutefois".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure. En revanche, ne pas se précipiter.	description=La phrase contient un terme inadapté : "en revanche".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure est en revanche à réaliser au calme.	description=La phrase contient un terme inadapté : "en revanche".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ce n'est pas revanche.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Par contre, ne pas se précipiter.	description=La phrase contient un terme inadapté : "par contre".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure est par contre à réaliser au calme.	description=La phrase contient un terme inadapté : "par contre".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ce n'est pas contre lui.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser ainsi que la procédure est nouvelle.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser ainsi, que la procédure est nouvelle.	description=La phrase contient un terme inadapté : "ainsi".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure. Ainsi ne pas se précipiter.	description=La phrase contient un terme inadapté : "ainsi".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure 12 ainsi que la 15.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure ainsi mise à jour.	description=La phrase contient un terme inadapté : "ainsi".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure ainsi.	description=La phrase contient un terme inadapté : "ainsi".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il a pourtant réaliser les tâches dans l'ordre indiqué.	description=La phrase contient un terme inadapté : "pourtant".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Pourtant, réaliser les tâches indiquées.	description=La phrase contient un terme inadapté : "pourtant".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser cependant que la procédure est nouvelle.	description=La phrase contient un terme inadapté : "cependant".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure. Cependant, ne pas se précipiter.	description=La phrase contient un terme inadapté : "cependant".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser néanmoins que la procédure est nouvelle.	description=La phrase contient un terme inadapté : "néanmoins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réaliser la procédure. Néanmoins, ne pas se précipiter.	description=La phrase contient un terme inadapté : "néanmoins".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=C'est pourquoi il faut suivre la procédure.	description=La phrase contient un terme inadapté : "c'est pourquoi".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La zone est froide, c'est pourquoi un manteau est obligatoire.	description=La phrase contient un terme inadapté : "c'est pourquoi".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La zone est froide, pourquoi ?	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Veiller à réaliser la procédure 25.	description=La phrase contient un terme inadapté : "veiller à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Veillez à réaliser la procédure 25.	description=La phrase contient un terme inadapté : "veiller à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure en veillant à réaliser chaque étape.	description=La phrase contient un terme inadapté : "veiller à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Veuillez suivre la procédure 25.	description=La phrase contient un terme inadapté : "veuillez".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et veuillez suivre la procédure 25.	description=La phrase contient un terme inadapté : "veuillez".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure 12 ou bien 25.	description=La phrase contient un terme inadapté : "ou bien".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Qu'il aille au bureau ou bien qu'il soit en télétravail, le contacter.	description=La phrase contient un terme inadapté : "ou bien".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure 12 et puis la 25.	description=La phrase contient un terme inadapté : "et puis".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Les agents sont tenus de suivre la procédure.	description=La phrase contient un terme inadapté : "être tenu de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La table est supposée propre.	description=La phrase contient un terme inadapté : "être supposé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La table est supposée lavée.	description=La phrase contient un terme inadapté : "être supposé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure est supposée être à jour.	description=La phrase contient un terme inadapté : "être supposé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opératrice est supposée mettre des gants.	description=La phrase contient un terme inadapté : "être supposé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opératrice, supposée être formé, met des gants.	description=La phrase contient un terme inadapté : "être supposé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opératrice, supposée mettre des gants, réalise les étapes.	description=La phrase contient un terme inadapté : "être supposé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opératrice est tenue de mettre des gants.	description=La phrase contient un terme inadapté : "être tenu de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opératrice, tenue de mettre des gants, réalise la procédure.	description=La phrase contient un terme inadapté : "être tenu de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opératrice, tenue par la procédure, met des gants.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opératrice porte la tenue de sécurité.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur est censé mettre des gants.	description=La phrase contient un terme inadapté : "être censé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur, censé être formé, met des gants.	description=La phrase contient un terme inadapté : "être censé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur, censé mettre des gants, réalise les étapes.	description=La phrase contient un terme inadapté : "être censé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure est censée être à jour.	description=La phrase contient un terme inadapté : "être censé".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'agent est obligé de pointer.	description=La phrase contient un terme inadapté : "être obligé de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Obligé de pointer.	description=La phrase contient un terme inadapté : "être obligé de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La décision incombe à la direction qui, par suite d'une évolution, assure la responsabilité.	description=La phrase contient un terme inadapté : "par suite".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Lorsque par suite de circonstances défavorables, la pièce est éteinte, arrêter.	description=La phrase contient un terme inadapté : "lorsque, par suite".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Par suite de circonstances défavorables, la pièce peut être éteinte.	description=La phrase contient un terme inadapté : "par suite".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Par la suite, suivre la procédure 15.	description=La phrase contient un terme inadapté : "par la suite".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre par la suite, la procédure 15.	description=La phrase contient un terme inadapté : "par la suite".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne suivre la procédure 15 en aucun cas.	description=La phrase contient un terme inadapté : "en aucun cas".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En aucun cas l'agent arrête la procédure.	description=La phrase contient un terme inadapté : "en aucun cas".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Agir en effet comme le demande la procédure.	description=La phrase contient un terme inadapté : "en effet".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En effet, il faut suivre la procédure.	description=La phrase contient un terme inadapté : "en effet".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure dans le but de ne pas se tromper.	description=La phrase contient un terme inadapté : "dans le but".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En définitive, suivre la procédure.	description=La phrase contient un terme inadapté : "en définitive".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et en définitive, suivre la procédure.	description=La phrase contient un terme inadapté : "en définitive".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En somme, suivre la procédure.	description=La phrase contient un terme inadapté : "en somme".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et en somme, suivre la procédure.	description=La phrase contient un terme inadapté : "en somme".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En bref, suivre la procédure.	description=La phrase contient un terme inadapté : "en bref".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et en bref, suivre la procédure.	description=La phrase contient un terme inadapté : "en bref".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En un bref résumé : suivre la procédure.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Pour conclure : suivre la procédure.	description=La phrase contient un terme inadapté : "pour conclure".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser la procédure définitive.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Au demeurant, noter que la procédure est à jour.	description=La phrase contient un terme inadapté : "au demeurant".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Noter au demeurant que la procédure est à jour.	description=La phrase contient un terme inadapté : "au demeurant".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il est demandé de suivre la procédure.	description=La phrase contient un terme inadapté : "être demandé (de)".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il est demandé qu'une pause soit réalisée.	description=La phrase contient un terme inadapté : "être demandé (de)".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Une pause est demandée.	description=La phrase contient un terme inadapté : "être demandé (de)".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Merci de faire comme demandé par la procédure.	description=La phrase contient un terme inadapté : "merci de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Merci, par ailleurs, de faire comme demandé.	description=La phrase contient un terme inadapté : "par ailleurs".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il est requis de suivre la procédure.	description=La phrase contient un terme inadapté : "être requis (de)".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il est requis qu'une pause soit réalisée.	description=La phrase contient un terme inadapté : "être requis (de)".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Une pause est requise.	description=La phrase contient un terme inadapté : "être requis (de)".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Ne jamais arrêter en cours de procédure.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur n'est jamais seul.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Effectivement, l'opérateur n'est jamais seul.	description=La phrase contient un terme inadapté : "effectivement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'opérateur n'est effectivement pas seul.	description=La phrase contient un terme inadapté : "effectivement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Les procédures de base sont à jour.	description=La phrase contient un terme inadapté : "basique".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Le novice réalise les opérations basiques.	description=La phrase contient un terme inadapté : "basique".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La contrainte sur les effectifs est levée.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure est effective dès aujourd'hui.	description=La phrase contient un terme inadapté : "effectif".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Réglement effectif ce jour.	description=La phrase contient un terme inadapté : "effectif".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Quant au réglement, il est en circulation.	description=La phrase contient un terme inadapté : "quant à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Les procédures sont quant à elles en révision.	description=La phrase contient un terme inadapté : "quant à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Si les opérateurs sont gênés, arrêter.	description=La phrase contient un terme inadapté : "être gêné".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=S'il est géné, l'opérateur s'arrête.	description=La phrase contient un terme inadapté : "être gêné".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Adapter en conséquence.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En conséquence, adapter.	description=La phrase contient un terme inadapté : "en conséquence".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il faut en conséquence adapter la procédure.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure en conséquence est adaptée.	description=La phrase contient un terme inadapté : "en conséquence".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il est clair que la procédure est adaptée.	description=La phrase contient un terme inadapté : "être clair que".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=C'est clair qu'elle est adaptée.	description=La phrase contient un terme inadapté : "être clair que".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure est claire.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De toute manière, il faut poursuivre.	description=La phrase contient un terme inadapté : "de toute manière".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure de manière à allumer le moteur.	description=La phrase contient un terme inadapté : "de manière à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De manière à allumer le moteur, suivre la procédure.	description=La phrase contient un terme inadapté : "de manière à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De manière précise, suivre la procédure.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De toute façon, il faut poursuivre.	description=La phrase contient un terme inadapté : "de toute façon".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il faut continuer de toutes façons.	description=La phrase contient un terme inadapté : "de toute façon".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure de façon à allumer le moteur.	description=La phrase contient un terme inadapté : "de façon à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De façon à allumer le moteur, suivre la procédure.	description=La phrase contient un terme inadapté : "de façon à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre la procédure de façon précise.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Quoi qu'il arrive, poursuivre.	description=La phrase contient un terme inadapté : "quoi que".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Quoi que fasse l'animal, poursuivre.	description=La phrase contient un terme inadapté : "quoi que".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Quoiqu'il fasse son possible, c'est voué à l'échec.	description=La phrase contient un terme inadapté : "quoique".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Faire de même avec le deuxième moteur. 	description=La phrase contient un terme inadapté : "de même".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=De même, fixer le deuxième moteur. 	description=La phrase contient un terme inadapté : "de même".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier de même la température.	description=La phrase contient un terme inadapté : "de même".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il en est de même s'il pleut.	description=La phrase contient un terme inadapté : "de même".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il en va de même de la température.	description=La phrase contient un terme inadapté : "de même".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier tout de même la température.	description=La phrase contient un terme inadapté : "tout de même".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En fin de compte, vérifier la température.	description=La phrase contient un terme inadapté : "en fin de compte".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Au bout du compte, vérifier la température.	description=La phrase contient un terme inadapté : "au bout du compte".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Quand même, vérifier la température.	description=La phrase contient un terme inadapté : "quand même".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Vérifier quand même la température.	description=La phrase contient un terme inadapté : "quand même".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Moyennant une étape supplémentaire, cela est possible.	description=La phrase contient un terme inadapté : "moyennant".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Cela est possible moyenant une étape supplémentaire.	description=La phrase contient un terme inadapté : "moyennant".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Aussitôt dit, aussitôt fait. 	description=La phrase contient un terme inadapté : "aussitôt".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Si l'alarme sonne, arrêter aussitôt. 	description=La phrase contient un terme inadapté : "aussitôt".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=En d'autres termes, arrêter tout.	description=La phrase contient un terme inadapté : "en d'autres termes".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Penser à vérifier la porte.	description=La phrase contient un terme inadapté : "penser à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Penser bien à vérifier la porte.	description=La phrase contient un terme inadapté : "penser à".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=S'assurer que l'air circule en quantité suffisante pour empêcher l'oxygène de s'accumuler.	description=La phrase contient un terme inadapté : "empêcher + V".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Premièrement, appuyer sur ON.	description=La phrase contient un terme inadapté : "premièrement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Et deuxiemement, tourner la manette.	description=La phrase contient un terme inadapté : "deuxièmement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Pour troisièmement, appuyer sur OFF.	description=La phrase contient un terme inadapté : "troisièmement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Pour enfin appuyer sur OFF.	description=La phrase contient un terme inadapté : "enfin".	severity=
+# "nécessaire" tout seul flashe dans les inadaptés, mais dans de nombreuses expressions, il est flou, donc ici : pas d'écart
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'étape 3 est nécessaire mais non obligatoire.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Une option nécessaire est de passer par le sud.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Tourner la vanne lorsque c'est nécessaire.	description=La phrase contient un terme inadapté : "lorsque".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Tourner la vanne lorsqu'il est nécessaire de le faire.	description=La phrase contient un terme inadapté : "lorsque".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Lorsque ce n'est pas nécessaire, tourner la vanne.	description=La phrase contient un terme inadapté : "lorsque".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Quand cela est nécessaire, tourner la vanne.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Quand ceci n'est pas nécessaire, arrêter.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=S'il est nécessaire de le faire, tourner la vanne.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=S'il n'est pas nécessaire de le faire, tourner la vanne.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser aussi peu que nécessaire la clé 15.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser autant que nécessaire la clé 15.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Tourner la vanne aussi doucement que nécessaire.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser dès que nécessaire la clé 15.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Tourner la vanne si nécessaire.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Une option telle que celle présentée est intéressante.	description=La phrase contient un terme inadapté : "tel (que)".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Une option, telle la 2, est intéressante.	description=La phrase contient un terme inadapté : "tel (que)".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=A la longue, c'est pénible.	description=La phrase contient un terme inadapté : "à la longue".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=C'est pénible à la longue.	description=La phrase contient un terme inadapté : "à la longue".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Utiliser un certain type d'outil. 	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Certains outils sont interdits.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Certaines questions sont interdites.	description=	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Avant de poursuivre, être certain du contexte.	description=La phrase contient un terme inadapté : "être certain".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il est certain que les clés sont interdites.	description=La phrase contient un terme inadapté : "être certain".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=A défaut d'outils, réaliser les étapes bleues.	description=La phrase contient un terme inadapté : "à défaut de".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=A défaut, réaliser les étapes bleues.	description=La phrase contient un terme inadapté : "à défaut".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=à défaut, réaliser les étapes bleues.	description=La phrase contient un terme inadapté : "à défaut".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Finalement, réaliser les étapes bleues.	description=La phrase contient un terme inadapté : "finalement".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Il faut privilégier la procédure B.	description=La phrase contient un terme inadapté : "privilégier".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=La procédure B est privilégiée.	description=La phrase contient un terme inadapté : "privilégier".	severity=
+profile=instructions-test	lang=FR	ruleName=InadequatePhrasing	tag=	target_text=L'intro est à prendre au sens large.	description=La phrase contient un terme inadapté : "être à + V, au sens large".	severity=
+
+#lang=FR	ruleName=InadequatePhrasing	tag=	target_text=	description=La phrase contient un terme inadapté : "aussitôt".	severity=
+# lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Suivre les conseils des plus expérimentés.	description=La phrase contient un terme inadapté : "conseil".	severity=
+# lang=FR	ruleName=InadequatePhrasing	tag=	target_text=Le Conseil d'Administration se réunint ce matin.	description=	severity=
+
+##### EN
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=In some conditions, the color is red.	description=The sentence contains an unsuitable term: "in some conditions".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=As a result, the color is red.	description=The sentence contains an unsuitable term: "as a result".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Clean the area (A), the door for example.	description=The sentence contains an unsuitable term: "for example".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Clean the door for example.	description=The sentence contains an unsuitable term: "for example".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Clean the door (for example).	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Clean the area (for example the door).	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Advise Person B that the brakes are set.	description=The sentence contains an unsuitable term: "advise".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=We advised you to refer to B.	description=The sentence contains an unsuitable term: "advise".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Packaging were to be assessed separately from any object it contains.	description=The sentence contains an unsuitable term: "is to be".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The key lesson we have learned from our experience is to be ready.	description=The sentence contains an unsuitable term: "is to be".	severity=
+# A retravailler : is to be non-V lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If another herbicide is to be added, do this now.	description=The sentence contains an unsuitable term: "is to be".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The amendment is urgent if there is to be no break in supply to these islands.	description=The sentence contains an unsuitable term: "is to be".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The factors need to be put in place.	description=The sentence contains an unsuitable term: "need to be".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The factor needs to be put in place.	description=The sentence contains an unsuitable term: "need to be".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Facilitators need to be aware of the group dynamics in the sessions.	description=The sentence contains an unsuitable term: "need to be".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=It is necessary that you fill in this form first.	description=The sentence contains an unsuitable term: "necessary".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=We have all the necessaries for the journey.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Apply the ointment to the wound as necessary.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=I am ready to stay late if necessary.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=You must take the pain killers only when necessary.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Where necessary, we examine the accuracy of the documents or reports themselves.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Use the different tools. 	description=The sentence contains an unsuitable term: "different".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Use the tools if they are different.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Of course, you must choose a tool. 	description=The sentence contains an unsuitable term: "of course".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Please, choose a tool. 	description=The sentence contains an unsuitable term: "please".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Prefer the new tools. 	description=The sentence contains an unsuitable term: "prefer".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The preferred tools are the ones. 	description=The sentence contains an unsuitable term: "prefer".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=He prefers tea to coffee. 	description=The sentence contains an unsuitable term: "prefer".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If either R-6 level transmitter reads 5% or higher or they are more than 1% different, have them zeroed. 	description=The sentence contains an unsuitable term: "either".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Actually, she should wear the green dress instead of the blue one.	description=The sentence contains an unsuitable term: "actually".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=There is a mismatch between our demands and what is actually feasible.	description=The sentence contains an unsuitable term: "actually".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Do the leak test as per paragraph 7.0.	description=The sentence contains an unsuitable term: "as per".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If requested, perform the installation.	description=The sentence contains an unsuitable term: "request".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=It is requested to perform the following placard installation instructions.	description=The sentence contains an unsuitable term: "request".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Make a request for external fire support.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Request external fire support.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Compile a list of the demanded tools.	description=The sentence contains an unsuitable term: "demand".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Compile a list of the required tools.	description=The sentence contains an unsuitable term: "require".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If obliged, add further gaskets.	description=The sentence contains an unsuitable term: "oblige".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If required, add further gaskets.	description=The sentence contains an unsuitable term: "require".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The repair limits are not mentioned as special equipment is required.	description=The sentence contains an unsuitable term: "require".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Prompt action is required if you swallow solvent.	description=The sentence contains an unsuitable term: "require".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=You must take care when you work with high voltages.	description=The sentence contains an unsuitable term: "take care".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Take care not to file too deeply.	description=The sentence contains an unsuitable term: "take care".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=During this step, take care not to cause damage to the surface.	description=The sentence contains an unsuitable term: "take care".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Beware of dangerous voltages.	description=The sentence contains an unsuitable term: "beware".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The items given in this note shall be considered as the basic configuration.	description=The sentence contains an unsuitable term: "basic".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Basically, if you want to apply, you need to complete this form and then call this phone number.	description=The sentence contains an unsuitable term: "basically, and then".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=This cake is basically sugar, butter, and flour.	description=The sentence contains an unsuitable term: "basically".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The pump shall be verified and repaired as necessary including cleaning before being restarted. 	description=The sentence contains an unsuitable term: "before V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=These measurements should be expressed as a percentage of the surface area of the original euro  banknote before it was mutilated or damaged. 	description=The sentence contains an unsuitable term: "before V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Before jacking up aircraft make sure that aircraft stability is ensured.	description=The sentence contains an unsuitable term: "ensure, before V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Before you pump oil from the tank, open the valve.	description=The sentence contains an unsuitable term: "before V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Rectify the defect before you restart the procedure.	description=The sentence contains an unsuitable term: "before V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Do the step B before the other.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Task to be performed before the first flight of the day.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The operator AB goes to the office before you.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Timer value shall be according to pump manufacturer's instructions and validated after  performing cool-down tests, usually 10 and 20 minutes after reaching the temperature set point.	description=The sentence contains an unsuitable term: "after V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The CTBT, more than 10 years after it was opened for signature, has not yet entered into force. 	description=The sentence contains an unsuitable term: "after V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=After jacking up aircraft make sure that aircraft stability is ensured.	description=The sentence contains an unsuitable term: "ensure, after V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=After you pump oil from the tank, open the valve.	description=The sentence contains an unsuitable term: "after V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Rectify the defect after you restart the procedure.	description=The sentence contains an unsuitable term: "after V".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Do the step B after the other.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The operator AB goes to the office after you.	description=	severity=
+
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The Internet is, in effect, the most detailed archive of our times.	description=The sentence contains an unsuitable term: "in effect".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=All personnel must be aware of the effect.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=This material provides effective protection from corrosion.	description=The sentence contains an unsuitable term: "effective".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=It can effectively remove or make the acne scars lighter.	description=The sentence contains an unsuitable term: "effectively".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=In this way, every tree provides an insight into the history of its growth.	description=The sentence contains an unsuitable term: "in this way".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=In that way, every tree provides an insight into the history of its growth.	description=The sentence contains an unsuitable term: "in this way".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=In no way, these data will be sold to other companies.	description=The sentence contains an unsuitable term: "in no way".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Her busy schedule can by no means be modified.	description=The sentence contains an unsuitable term: "by no means".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=He does not know the answer, and she does not either.	description=The sentence contains an unsuitable term: "either".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Either party may cancel the contract at any time.	description=The sentence contains an unsuitable term: "either".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=This offer is indeed a great opportunity.	description=The sentence contains an unsuitable term: "indeed".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=I really like cats; indeed, I love them.	description=The sentence contains an unsuitable term: "indeed".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=He says I like milk, and I do indeed.	description=The sentence contains an unsuitable term: "indeed".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Two of these Member States, namely Denmark and the United Kingdom, have a special status.	description=The sentence contains an unsuitable term: "namely".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=These screws are more robust and hence last longer.	description=The sentence contains an unsuitable term: "hence".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The project is progressing well, hence our enthusiasm for its next stage.	description=The sentence contains an unsuitable term: "hence".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Push the unit out and then move it sideways.	description=The sentence contains an unsuitable term: "and then".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Thus, it is impossible to give a standard value.	description=The sentence contains an unsuitable term: "thus".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Your explanation is very clear. I have a few questions, though.	description=The sentence contains an unsuitable term: "though".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The journey was incredible, though tiring.	description=The sentence contains an unsuitable term: "though".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The turnbuckles travel through a hole in the bulkhead.	description=The sentence contains an unsuitable term: "through".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Thanks to my friend's help, I passed the exam.	description=The sentence contains an unsuitable term: "thanks to".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Members confirm that this is a more political programme, as recognised by Mrs X, whom I thank for her general support for the programme.	description=The sentence contains an unsuitable term: "thank for".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Thank you for the programme.	description=The sentence contains an unsuitable term: "thank for".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Move the lever till it hits the stop.	description=The sentence contains an unsuitable term: "till".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=In addition to books, I also got a scarf.	description=The sentence contains an unsuitable term: "in addition".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The candidate is qualified and, in addition, he has experience.	description=The sentence contains an unsuitable term: "in addition".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=I run regularly and, additionally, I do yoga.	description=The sentence contains an unsuitable term: "additionally".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Ask your sister to help you with the answers, or failing that, just make them up.	description=The sentence contains an unsuitable term: "failing that".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The new robot can read, and furthermore, it can speak.	description=The sentence contains an unsuitable term: "furthermore".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Furthermore, it is important to review all processes.	description=The sentence contains an unsuitable term: "furthermore".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=However, we recommend this step to decrease the drying time.	description=The sentence contains an unsuitable term: "however".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=I should, however, like to share some thoughts on the matter with you.	description=The sentence contains an unsuitable term: "however".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The team did not play well; nevertheless, it won the match.	description=The sentence contains an unsuitable term: "nevertheless".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=There were setbacks but we nevertheless made progress.	description=The sentence contains an unsuitable term: "nevertheless".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Moreover, an inappropriate mix of loose fiscal policy and tight monetary policy could trigger a strong appreciation of the currency.	description=The sentence contains an unsuitable term: "moreover".	severity=
+# lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Never allow the level in the tank to drop below half.	description=The sentence contains an unsuitable term: "never".	severity=
+# lang=EN	ruleName=InadequatePhrasing	tag=	target_text=.	description=The sentence contains an unsuitable term: "never".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=On the one hand, I'm tired; but on the other hand, I want to watch a film.	description=The sentence contains an unsuitable term: "on the other hand".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=On the other hand, Europe needs to tackle the problems of an ageing population.	description=The sentence contains an unsuitable term: "on the other hand".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Epilepsy most often # starts in childhood or else late in life, but anyone can develop epilepsy at any time.	description=The sentence contains an unsuitable term: "or else".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=This is an area in which decisions could be necessary at the level of a # whole continent, or even of the entire planet.	description=The sentence contains an unsuitable term: "necessary, or even".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=It may be open to hundreds or even thousands of players.	description=The sentence contains an unsuitable term: "or even".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Even if it is cold, do a check.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=This floor is not very even.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text= the measure does not affect competition at all or, alternatively, that its effects on competition are insignificant.	description=The sentence contains an unsuitable term: "or alternatively".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=They may have to find work in order to provide enough money # for the family, or alternatively may have to give up work in order to care for the children.	description=The sentence contains an unsuitable term: "or alternatively".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Alternatively, you can do test B.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=She always does what she pleases.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The increase in revenue pleased the shareholders.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If you have answered yes, please submit full details about the group.	description=The sentence contains an unsuitable term: "please".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Preferably, refueling should be done outdoors.	description=The sentence contains an unsuitable term: "preferably".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Apparently, my interview went well since I received a job offer.	description=The sentence contains an unsuitable term: "since".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=My company has been doing well since sales picked up.	description=The sentence contains an unsuitable term: "since".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=My company has been doing well since 2019.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=My company has done bad in 2018 and has been doing well since 2019.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If it is more than 2 hours since you mixed the compound, do not use it.	description=	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=It is important to communicate a green purchasing policy to a wide range of stakeholders, including present and future suppliers, service providers or contractors, so that they can  take account of the new requirements.	description=The sentence contains an unsuitable term: "so that".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Fold the girt over the container so that the Velcro tape matches.	description=The sentence contains an unsuitable term: "so that".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Therefore subsections of a same manual might have different dates.	description=The sentence contains an unsuitable term: "different, therefore".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The number of dynamic filters adjusts accordingly.	description=The sentence contains an unsuitable term: "accordingly".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Accordingly, we need to invest to enhance the value of this asset.	description=The sentence contains an unsuitable term: "accordingly".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Consequently, the demand increased and therefore we will adjust our production volumes.	description=The sentence contains an unsuitable term: "therefore, consequently".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Be careful when you do this procedure.	description=The sentence contains an unsuitable term: "be careful".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=You must be careful when you do this procedure.	description=The sentence contains an unsuitable term: "be careful".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=The contract lasts one year and can be renewed thereafter.	description=The sentence contains an unsuitable term: "thereafter".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Thereafter, the dose should be adjusted according to individual response.	description=The sentence contains an unsuitable term: "thereafter".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If damage is assumed to be repairable, refer to the repair section.	description=The sentence contains an unsuitable term: "assume".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=It can be assumed that certain people run a greater risk.	description=The sentence contains an unsuitable term: "assume".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Not only that, beer is even supposed to have the opposite effect and actually increase the risk.	description=The sentence contains an unsuitable term: "suppose, actually".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=This is supposed to be the dry season.	description=The sentence contains an unsuitable term: "suppose".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If temperature is expected to drop to -20 degrees C, remove the batteries.	description=The sentence contains an unsuitable term: "expect".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Inhalation is not expected to be a hazard.	description=The sentence contains an unsuitable term: "expect".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=It is expected that the text will be adopted.	description=The sentence contains an unsuitable term: "expect".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text= It absorbed the adverse effects of a less benign than expected environment.	description=The sentence contains an unsuitable term: "expect".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If the drain hole is obstructed, remove the unwanted material.	description=The sentence contains an unsuitable term: "obstruct".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=If the drain hole is embarrassed, remove the unwanted material.	description=The sentence contains an unsuitable term: "embarrass".	severity=
+profile=instructions-test	lang=EN	ruleName=InadequatePhrasing	tag=	target_text=Similarly, use a key to open this door.	description=The sentence contains an unsuitable term: "similarly".	severity=
+# lang=EN	ruleName=InadequatePhrasing	tag=	target_text=.	description=The sentence contains an unsuitable term: "".	severity=
