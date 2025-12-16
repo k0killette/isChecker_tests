@@ -1,100 +1,116 @@
 {
-    "category": "Chiffre/Number",
-    "language": "fr",
-    "rules": [
+  "category": "Chiffre/Number",
+  "language": "fr",
+  "rules": [
+    {
+      "name": "NumeralDigit",
+      "description": "Écrire les quantités, dates et valeurs ordinales en chiffres",
+      "error_mesg": "Une `X` est écrite en lettres.",
+      "regex": null,
+      "prompt_file": "prompts/fr_prompts_nombre.py",
+      "prompt_key": "SD-08.01",
+      "anomaly_score": 0.0429905229721958,
+      "recommended_method": "REGEX"
+    },
+    {
+      "name": "NumeralDecimalDigit",
+      "description": "Limiter les nombres décimaux à 2 chiffres après la virgule",
+      "error_mesg": "Le nombre décimal a plus de 2 chiffres après la virgule : {decimals}.",
+      "regex": [
         {
-            "name": "NumeralDigit",            
-            "description": "Écrire les quantités, dates et valeurs ordinales en chiffres",
-            "error_mesg": "Une `X` est écrite en lettres.",
-            "regex": null,
-            "llm_required": true,
-            "prompt_file": "prompts/fr_prompts_nombre.py",
-            "prompt_key": "SD-08.01"
-        },
-        {                
-            "name": "NumeralDecimalDigit",            
-            "description": "Limiter les nombres décimaux à 2 chiffres après la virgule",
-            "error_mesg": "Le nombre décimal a plus de 2 chiffres après la virgule : {decimals}.",
-            "regex": [
-                { 
-                    "type": "text", 
-                    "regex": "((?<!Km) |^)\\d+(\\.|,)\\d\\d\\d+\\b", 
-                    "cause": "digit",
-                    "extract": {
-                        "decimals": "lambda m: len(re.search(r'[.,](\\d+)', m.group()).group(1))"
-                    } 
-                }
-            ],
-            "llm_required": false,
-            "prompt_file": null,
-            "prompt_key": null
-        },
-        {            
-            "name": "NumeralDecimalSep",
-            "description": "Utiliser la virgule comme séparateur de nombre décimal",
-            "error_mesg": "Un point est utilisé comme séparateur de nombre décimal.",
-            "regex": [
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(m\\.?|m(s|\\.)?|m(è|e|é)tres?)\\b|(m\\.?|m(s|\\.)?|.m(è|e|é)tres?|kms) ?\\d+\\.\\d+)", 
-                    "cause": "mètre" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(kilom\\.?|km(s|\\.)?|kilom(è|e|é)tres?)\\b|(kilom\\.?|km(s|\\.)?|.kilom(è|e|é)tres?|kms) ?\\d+\\.\\d+)", 
-                    "cause": "kilomètre" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(centim\\.?|cm(s|\\.)?|centim(è|e|é)tres?)\\b|(centim\\.?|cm(s|\\.)?|.centim(è|e|é)tres?) ?\\d+\\.\\d+)", 
-                    "cause": "centimètre" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(millim\\.?|mm(s|\\.)?|millim(è|e|é)tres?)\\b|(millim\\.?|mm(s|\\.)?|.millim(è|e|é)tres?) ?\\d+\\.\\d+)", 
-                    "cause": "millimètre" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(kilog?s?\\.?|kg(s|\\.)?|kilogrammes?)\\b|(kilog?s?\\.?|kg(s|\\.)?|.kilogrammes?) ?\\d+\\.\\d+)", 
-                    "cause": "kilogramme" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(secs?\\.?|''|s\\.)\\b|(secs?\\.?|''|s\\.) ?\\d+\\.\\d+)", 
-                    "cause": "seconde" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(a\\.?|a(s|\\.)?|amps?\\.?|ampères?)\\b|(amps?\\.?|ampères?) ?\\d+\\.\\d+)", 
-                    "cause": "ampère" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(deg(s|\\.|°)?|°c|(° ?)?celsius|°f|(° ?)?fahrenheit|degrés? (celsius|fahrenheit))\\b|(deg(s|\\.|°)?|°c|(° ?)?celsius|°f|(° ?)?fahrenheit|degrés? (celsius|fahrenheit)) ?    \\d +\\.\\d+)", 
-                    "cause": "degré" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(degrés?( (?!celsius|fahrenheit)|.$)|degrés? ?\\d+\\.\\d+))", 
-                    "cause": "degré" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(kelvin|k)(s|\\.)?\\b|(kelvin|k)(s|\\.)? ?\\d+\\.\\d+)", 
-                    "cause": "kelvin" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *mole?(s|\\.)?\\b|mole?(s|\\.)? ?\\d+\\.\\d+)", 
-                    "cause": "mole" },
-                { 
-                    "type": "text", 
-                    "regex": "(\\d+\\.\\d+ *(cd|Candela)(s|\\.)?\\b|(cd|Candela)(s|\\.)? ?\\d+\\.\\d+)", 
-                    "cause": "candela" }
-            ],
-            "llm_required": false,
-            "prompt_file": null,
-            "prompt_key": null
-        },
-        {            
-            "name": "NumeralThousandFormat",
-            "description": "Mettre une espace insécable tous les 3 chiffres pour les grands nombres",
-            "error_mesg": "L'espace entre les 3 chiffres est manquante.",
-            "regex": null,
-            "llm_required": true,
-            "prompt_file": "prompts/fr_prompts_nombre.py",
-            "prompt_key": "SD-08.04"
+          "type": "text",
+          "regex": "((?<!Km) |^)\\d+(\\.|,)\\d\\d\\d+\\b",
+          "cause": "digit",
+          "extract": {
+            "decimals": "lambda m: len(re.search(r'[.,](\\d+)', m.group()).group(1))"
+          }
         }
-    ]
+      ],
+      "prompt_file": null,
+      "prompt_key": null,
+      "anomaly_score": 0.06728049251644597,
+      "recommended_method": "LLM"
+    },
+    {
+      "name": "NumeralDecimalSep",
+      "description": "Utiliser la virgule comme séparateur de nombre décimal",
+      "error_mesg": "Un point est utilisé comme séparateur de nombre décimal.",
+      "regex": [
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(m\\.?|m(s|\\.)?|m(è|e|é)tres?)\\b|(m\\.?|m(s|\\.)?|.m(è|e|é)tres?|kms) ?\\d+\\.\\d+)",
+          "cause": "mètre"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(kilom\\.?|km(s|\\.)?|kilom(è|e|é)tres?)\\b|(kilom\\.?|km(s|\\.)?|.kilom(è|e|é)tres?|kms) ?\\d+\\.\\d+)",
+          "cause": "kilomètre"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(centim\\.?|cm(s|\\.)?|centim(è|e|é)tres?)\\b|(centim\\.?|cm(s|\\.)?|.centim(è|e|é)tres?) ?\\d+\\.\\d+)",
+          "cause": "centimètre"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(millim\\.?|mm(s|\\.)?|millim(è|e|é)tres?)\\b|(millim\\.?|mm(s|\\.)?|.millim(è|e|é)tres?) ?\\d+\\.\\d+)",
+          "cause": "millimètre"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(kilog?s?\\.?|kg(s|\\.)?|kilogrammes?)\\b|(kilog?s?\\.?|kg(s|\\.)?|.kilogrammes?) ?\\d+\\.\\d+)",
+          "cause": "kilogramme"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(secs?\\.?|''|s\\.)\\b|(secs?\\.?|''|s\\.) ?\\d+\\.\\d+)",
+          "cause": "seconde"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(a\\.?|a(s|\\.)?|amps?\\.?|ampères?)\\b|(amps?\\.?|ampères?) ?\\d+\\.\\d+)",
+          "cause": "ampère"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(deg(s|\\.|°)?|°c|(° ?)?celsius|°f|(° ?)?fahrenheit|degrés? (celsius|fahrenheit))\\b|(deg(s|\\.|°)?|°c|(° ?)?celsius|°f|(° ?)?fahrenheit|degrés? (celsius|fahrenheit)) ?    \\d +\\.\\d+)",
+          "cause": "degré"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(degrés?( (?!celsius|fahrenheit)|.$)|degrés? ?\\d+\\.\\d+))",
+          "cause": "degré"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(kelvin|k)(s|\\.)?\\b|(kelvin|k)(s|\\.)? ?\\d+\\.\\d+)",
+          "cause": "kelvin"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *mole?(s|\\.)?\\b|mole?(s|\\.)? ?\\d+\\.\\d+)",
+          "cause": "mole"
+        },
+        {
+          "type": "text",
+          "regex": "(\\d+\\.\\d+ *(cd|Candela)(s|\\.)?\\b|(cd|Candela)(s|\\.)? ?\\d+\\.\\d+)",
+          "cause": "candela"
+        }
+      ],
+      "prompt_file": null,
+      "prompt_key": null,
+      "anomaly_score": 0.04838138190427188,
+      "recommended_method": "REGEX"
+    },
+    {
+      "name": "NumeralThousandFormat",
+      "description": "Mettre une espace insécable tous les 3 chiffres pour les grands nombres",
+      "error_mesg": "L'espace entre les 3 chiffres est manquante.",
+      "regex": null,
+      "prompt_file": "prompts/fr_prompts_nombre.py",
+      "prompt_key": "SD-08.04",
+      "anomaly_score": 0.05351121181142948,
+      "recommended_method": "LLM"
+    }
+  ]
 }
