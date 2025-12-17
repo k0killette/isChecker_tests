@@ -1,0 +1,28 @@
+{
+  "category": "Unité/Unit",
+  "language": "fr",
+  "rules": [
+    {
+      "name": "AcceptableUnit",
+      "description": "Le symbole de l'unité n'est pas approuvé.",
+      "error_mesg": "Le symbole de l'unité n'est pas approuvé : `X`. (où `X` est l'unité de mesure avec le symbole)",
+      "regex": [
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *((k|K)ilom\\.?|K(m(s|\\.)|M(S|s|\\.)?)|Kilom(è|e|é)tres?|kms)\\b|((k|K)ilom\\.?|K(m(s|\\.)|M(S|s|\\.)?)|.Kilom(è|e|é)tres?|kms) ?\\d+)", "cause": "kilomètre" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *((c|C)entim\\.?|C(m(s|\\.)?|M(S|s|\\.)?)|Centim(è|e|é)tres?|cms)\\b|((c|C)entim\\.?|C(m(s|\\.)?|M(S|s|\\.)?)|.Centim(è|e|é)tres?|cms) ?\\d+)", "cause": "centimètre" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *((m|M)illim\\.?|M(m(s|\\.)?|M(S|s|\\.)?)|Millim(è|e|é)tres?)\\b|((m|M)illim\\.?|M(m(s|\\.)?|M(S|s|\\.)?)|.Millim(è|e|é)tres?) ?\\d+)", "cause": "millimètre" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *((k|K)ilog?s?\\.?|K(g(s|\\.)?|G(S|s|\\.)?)|Kilogrammes?|kgs)\\b|((k|K)ilog?s?\\.?|K(g(s|\\.)?|G(S|s|\\.)?)|.Kilogrammes?|kgs) ?\\d+)", "cause": "kilogramme" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *((s|S)ecs?\\.?|''|(s|S)\\.)\\b|((s|S)ecs?\\.?|''|(s|S)\\.) ?\\d+)", "cause": "seconde" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *((a|A)mps?\\.?|ampères?)\\b|((a|A)mps?\\.?|ampères?) ?\\d+)", "cause": "ampère" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *((d|D)eg(s|\\.|°)?|°c|(° ?)?celsius|°f|(° ?)?fahrenheit|degrés? (celsius|fahrenheit))\\b|((d|D)eg(s|\\.|°)?|°c|(° ?)?celsius|°f|(° ?)?fahrenheit|degrés? (celsius|fahrenheit)) ?\\d+)", "cause": "degré" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *(degrés?( (?!Celsius|celsius|Fahrenheit|fahrenheit)|.$)|degrés? ?\\d+))", "cause": "degré" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *(Mole?|MOLE?)(s|\\.)?\\b|(Mole?|MOLE?)(s|\\.)? ?\\d+)", "cause": "mole" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *((Cd|CD|Candela)(S|s|\\.)?|cds)\\b|((Cd|CD|Candela)(S|s|\\.)?|cds) ?\\d+)", "cause": "candela" },
+        { "type": "text", "regex": "(?-i)((\\d+,|\\d+ )?\\d+ *(kelvin|k)(s|\\.)?\\b|(kelvin|k)(s|\\.)? ?\\d+)", "cause": "kelvin" }
+      ],
+      "prompt_file": "prompts/fr_prompts_unit.py",
+      "prompt_key": "SD-09.01",
+      "severity": "Majeur",
+      "severity_level": 2
+    }
+  ]
+}

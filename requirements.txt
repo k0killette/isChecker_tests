@@ -3,3 +3,6 @@ scikit-learn==1.4.2
 matplotlib==3.8.3
 seaborn==0.13.2
 numpy==1.26.4
+python-dotenv
+openai
+psycopg2-binary==2.9.11
