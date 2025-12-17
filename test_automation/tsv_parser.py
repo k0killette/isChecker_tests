@@ -2,6 +2,7 @@
 
 import pandas as pd
 from pathlib import Path
+from typing import List
 
 # Chemin vers le dossier test_automation
 BASE_DIR = Path(__file__).parent   
@@ -14,9 +15,10 @@ TSV_DIR = BASE_DIR.parent / "tsv_reports"
 def load_tsv_report(filename: str) -> pd.DataFrame:
     """
     Charge un rapport TSV isChecker, filtre sur les lignes en français (lignes ayant la paire 'lang=FR') et retourne un DataFrame structuré
-    :param filename: chemin relatif vers le fichier TSV à charger
+    :param filename: nom du fichier TSV à charger
     :return : DataFrame pandas avec les colonnes renommées pour correspondre à la base de données
     """
+    # Construction du chemin complet vers le fichier TSV
     path = TSV_DIR / filename
 
     # Vérification de l'existence du fichier
@@ -74,12 +76,16 @@ def load_tsv_report(filename: str) -> pd.DataFrame:
             "Erreur: La colonne 'description' est absente du rapport TSV, impossible de déterminer le statut isChecker."
         )
     
+    # Création de la colonne 'report_name' à partir du nom du fichier
+    df_tsv["report_name"] = filename
+
     # Renommage des noms de colonnes pour correspondre à la base de données
     df_tsv = df_tsv.rename(
         columns={
             "ruleName": "rule_name",
             "lang": "language",
             "description": "ischecker_message",
+            "report_name": "source_file"
         }
     )
 
@@ -87,3 +93,26 @@ def load_tsv_report(filename: str) -> pd.DataFrame:
     print(df_tsv.head())
 
     return df_tsv
+
+# -------------------------------------------
+# Fonction pour charger tous les rapports TSV
+# -------------------------------------------
+def load_all_tsv_reports(pattern: str = "*.tsv") -> pd.DataFrame:
+    """
+    Charge et fusionne tous les rapports TSV correspondant au pattern, en ne gardant que les tests où 'lang=FR'
+    :param pattern : motif pour filtrer les fichiers TSV à charger (par défaut '*.tsv')
+    :return : DataFrame pandas fusionné avec les colonnes renommées pour correspondre à la base de données
+    """
+    tsv_files = sorted(TSV_DIR.glob(pattern))
+    if not tsv_files:
+        raise FileNotFoundError(f"Aucun fichier TSV trouvé dans {TSV_DIR} avec le pattern {pattern}")
+
+    dfs: List[pd.DataFrame] = []
+    for path in tsv_files:
+        print(f"\nChargement du rapport TSV : {path.name}")
+        df = load_tsv_report(path.name)
+        dfs.append(df)
+
+    df_all_tsv = pd.concat(dfs, ignore_index=True)
+    print(f"\nNombre total de tests chargés (FR uniquement) : {len(df_all_tsv)}")
+    return df_all_tsv
