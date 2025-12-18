@@ -1,9 +1,9 @@
 import pandas as pd
 from typing import Tuple, Dict, Any
 
-# -------------------------------------------------------------------
-# Attribution TP / TN / FP / FN pour un test
-# -------------------------------------------------------------------
+# ---------------------------------------------------------
+# Fonction pour créer une matrice de confusion pour un test
+# ---------------------------------------------------------
 def classify_test(
     ischecker_status: str,
     llm_violation: bool | None,
